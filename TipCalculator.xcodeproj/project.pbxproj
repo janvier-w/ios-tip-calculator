@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7BAC37FA1E76019A0020CB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAC37F91E76019A0020CB7A /* AppDelegate.swift */; };
-		7BAC37FC1E76019A0020CB7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAC37FB1E76019A0020CB7A /* ViewController.swift */; };
+		7BAC37FC1E76019A0020CB7A /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAC37FB1E76019A0020CB7A /* TipViewController.swift */; };
 		7BAC37FF1E76019A0020CB7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAC37FD1E76019A0020CB7A /* Main.storyboard */; };
 		7BAC38011E76019A0020CB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAC38001E76019A0020CB7A /* Assets.xcassets */; };
 		7BAC38041E76019A0020CB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAC38021E76019A0020CB7A /* LaunchScreen.storyboard */; };
+		7BAC380C1E7617C30020CB7A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAC380B1E7617C30020CB7A /* SettingsViewController.swift */; };
+		7BAC380E1E763A910020CB7A /* CalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAC380D1E763A910020CB7A /* CalculatorEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7BAC37F61E76019A0020CB7A /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAC37F91E76019A0020CB7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BAC37FB1E76019A0020CB7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BAC37FB1E76019A0020CB7A /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		7BAC37FE1E76019A0020CB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BAC38001E76019A0020CB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BAC38031E76019A0020CB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BAC38051E76019A0020CB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAC380B1E7617C30020CB7A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7BAC380D1E763A910020CB7A /* CalculatorEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				7BAC37F91E76019A0020CB7A /* AppDelegate.swift */,
-				7BAC37FB1E76019A0020CB7A /* ViewController.swift */,
+				7BAC37FB1E76019A0020CB7A /* TipViewController.swift */,
+				7BAC380D1E763A910020CB7A /* CalculatorEngine.swift */,
 				7BAC37FD1E76019A0020CB7A /* Main.storyboard */,
+				7BAC380B1E7617C30020CB7A /* SettingsViewController.swift */,
 				7BAC38001E76019A0020CB7A /* Assets.xcassets */,
 				7BAC38021E76019A0020CB7A /* LaunchScreen.storyboard */,
 				7BAC38051E76019A0020CB7A /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BAC37FC1E76019A0020CB7A /* ViewController.swift in Sources */,
+				7BAC37FC1E76019A0020CB7A /* TipViewController.swift in Sources */,
+				7BAC380E1E763A910020CB7A /* CalculatorEngine.swift in Sources */,
 				7BAC37FA1E76019A0020CB7A /* AppDelegate.swift in Sources */,
+				7BAC380C1E7617C30020CB7A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
